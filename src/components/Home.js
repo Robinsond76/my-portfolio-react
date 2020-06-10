@@ -5,7 +5,10 @@ const Home = () => {
   return (
     <div>
       <div id='home-header'>
-        <h1>Robinson Souza</h1>
+        <div>
+          <h1>Robinson Souza</h1>
+          <h2>Lorem ipsum dolor sit.</h2>
+        </div>
         <img src={portrait} alt='' className='portrait' />
       </div>
       <p>Lorem ipsum dolor sit amet consectetur.</p>

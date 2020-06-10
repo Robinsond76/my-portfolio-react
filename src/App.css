@@ -51,8 +51,10 @@ nav {
 .navbar ul {
   display: flex;
   flex-direction: column;
-  line-height: 1em;
-  margin-top: 10px;
+
+  margin-top: 15px;
+  padding-left: 5px;
+  font-weight: 600;
 }
 
 .navbar li a {
@@ -66,12 +68,14 @@ nav {
 }
 
 #home-header {
-  margin-top: 10px;
+  padding-top: 10px;
   display: flex;
-  /* align-items: center; */
   justify-content: space-between;
 }
 
 #home-header h1 {
-  font-size: 3em;
+  font-size: 3.5em;
+}
+#home-header h2 {
+  color: #999;
 }
