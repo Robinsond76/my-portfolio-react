@@ -1,15 +1,11 @@
 import React from 'react';
-import portrait from '../img/portrait.jpg';
 
 const Home = () => {
   return (
     <div>
-      <div id='home-header'>
-        <div>
-          <h1>Robinson Souza</h1>
-          <h2>Lorem ipsum dolor sit.</h2>
-        </div>
-        <img src={portrait} alt='' className='portrait' />
+      <div className='header'>
+        <h1>Robinson Souza</h1>
+        <h2>Lorem ipsum dolor sit.</h2>
       </div>
       <p>Lorem ipsum dolor sit amet consectetur.</p>
       <p>
