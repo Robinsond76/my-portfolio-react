@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  color: #333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  text-decoration: none;
+  color: #333;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ul {
+  list-style: none;
+}
+
+p {
+  margin-bottom: 0.5rem;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 750px;
+  margin-left: 140px;
+  padding: 0 25px;
+}
+
+.portrait {
+  display: block;
+  object-fit: cover;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-left: 30px;
+}
+
+nav {
+  display: block;
+  position: fixed;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+
+.navbar ul {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  line-height: 1em;
+  margin-top: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar li a {
+  display: block;
+  padding: 2px 20px 2px 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar li:hover {
+  background: #e9e9e9;
+  border-radius: 5px;
+}
+
+#home-header {
+  margin-top: 10px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+#home-header h1 {
+  font-size: 3em;
 }
