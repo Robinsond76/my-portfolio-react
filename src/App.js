@@ -29,6 +29,8 @@ const App = () => {
 
 export default App;
 
-//build container
-
-//build body of each four links: About // How I'm learning // Projects // Contact
+//Make the website mobile responsive
+// Learn why the portrait blurs. I swear I read about this before
+//Fill website with content
+// Find out the difference between sticky and fixed
+// Also mess around with the navbar by using the 'top' and 'left' attribute.

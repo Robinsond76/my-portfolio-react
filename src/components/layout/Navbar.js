@@ -8,7 +8,7 @@ const Navbar = () => {
       {currentPage === '/' ? (
         <img src={portrait} alt='' className='portrait' />
       ) : (
-        <div class='name'>Rob Souza</div>
+        <div className='name'>Rob Souza</div>
       )}
       <div className='navbar'>
         <ul>

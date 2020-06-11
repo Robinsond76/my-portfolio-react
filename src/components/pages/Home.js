@@ -1,4 +1,5 @@
 import React from 'react';
+import portrait from '../../img/portrait.jpg';
 
 const Home = () => {
   return (
@@ -6,6 +7,7 @@ const Home = () => {
       <div className='header'>
         <h1>Robinson Souza</h1>
         <h2>Lorem ipsum dolor sit.</h2>
+        <img className='portrait-media' src={portrait} alt='Robinson Souza' />
       </div>
       <p>Lorem ipsum dolor sit amet consectetur.</p>
       <p>

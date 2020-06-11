@@ -5,47 +5,49 @@ const Contact = () => {
     <>
       <div className='header'>
         <h1>Contact Me</h1>
+        <h2>Contact Form</h2>
       </div>
-      <h2>Contact Form</h2>
-      <form method='POST' data-netlify='true' data-netlify-recaptcha='true'>
-        <div class='text-fields'>
-          <input
-            type='text'
-            class='text-input name-input'
-            placeholder='Name'
-            name='name'
-          />
-          <input
-            type='text'
-            class='text-input subject-input'
-            placeholder='Subject'
-            name='subject'
-          />
-          <input
-            type='email'
-            class='text-input email-input'
-            placeholder='Email Address'
-            name='email'
-          />
-          <input
-            type='text'
-            class='text-input phone-input'
-            placeholder='Phone Number'
-            name='phone'
-          />
-          <textarea
-            class='contact-message message-input'
-            placeholder='Enter Message'
-            name='message'
-          ></textarea>
-          <div class='my-2'>
-            <div data-netlify-recaptcha='true'></div>
+      <div className='form-wrap'>
+        <form method='POST' data-netlify='true' data-netlify-recaptcha='true'>
+          <div className='text-fields'>
+            <input
+              type='text'
+              className='text-input name-input'
+              placeholder='Name'
+              name='name'
+            />
+            <input
+              type='text'
+              className='text-input subject-input'
+              placeholder='Subject'
+              name='subject'
+            />
+            <input
+              type='email'
+              className='text-input email-input'
+              placeholder='Email Address'
+              name='email'
+            />
+            <input
+              type='text'
+              className='text-input phone-input'
+              placeholder='Phone Number'
+              name='phone'
+            />
+            <textarea
+              className='contact-message message-input'
+              placeholder='Enter Message'
+              name='message'
+            ></textarea>
+            <div className='my-2'>
+              <div data-netlify-recaptcha='true'></div>
+            </div>
           </div>
-        </div>
-        <button type='submit' class='btn-dark'>
-          Submit
-        </button>
-      </form>
+          <button type='submit' className='btn-dark'>
+            Submit
+          </button>
+        </form>
+      </div>
     </>
   );
 };
