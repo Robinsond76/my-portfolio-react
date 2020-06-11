@@ -10,6 +10,7 @@ const Contact = () => {
       <div className='form-wrap'>
         <form method='POST' data-netlify='true' data-netlify-recaptcha='true'>
           <div className='text-fields'>
+            <input type='hidden' name='form-name' value='contact' />
             <input
               type='text'
               className='text-input name-input'
@@ -28,18 +29,12 @@ const Contact = () => {
               placeholder='Email Address'
               name='email'
             />
-            <input
-              type='text'
-              className='text-input phone-input'
-              placeholder='Phone Number'
-              name='phone'
-            />
             <textarea
               className='contact-message message-input'
               placeholder='Enter Message'
               name='message'
             ></textarea>
-            <div className='my-2'>
+            <div>
               <div data-netlify-recaptcha='true'></div>
             </div>
           </div>
