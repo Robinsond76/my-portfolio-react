@@ -8,7 +8,7 @@ const Contact = () => {
         <h2>Contact Form</h2>
       </div>
       <div className='form-wrap'>
-        <form method='POST' data-netlify='true' data-netlify-recaptcha='true'>
+        <form method='POST' name='contact'>
           <div className='text-fields'>
             <input type='hidden' name='form-name' value='contact' />
             <input
@@ -34,9 +34,6 @@ const Contact = () => {
               placeholder='Enter Message'
               name='message'
             ></textarea>
-            <div>
-              <div data-netlify-recaptcha='true'></div>
-            </div>
           </div>
           <button type='submit' className='btn-dark'>
             Submit
