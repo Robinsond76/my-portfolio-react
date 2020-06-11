@@ -9,8 +9,8 @@ const Contact = () => {
       </div>
       <div className='form-wrap'>
         <form method='POST' name='contact'>
+          <input type='hidden' name='form-name' value='contact' />
           <div className='text-fields'>
-            <input type='hidden' name='form-name' value='contact' />
             <input
               type='text'
               className='text-input name-input'
