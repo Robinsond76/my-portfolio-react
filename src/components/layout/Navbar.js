@@ -1,28 +1,28 @@
 import React from 'react';
 import portrait from '../../img/portrait.jpg';
+import { withRouter, Link } from 'react-router-dom';
 
-const Navbar = () => {
-  const currentPage = window.location.pathname;
+const Navbar = ({ location }) => {
   return (
     <nav>
-      {currentPage === '/' ? (
-        <img src={portrait} alt='' className='portrait' />
+      {location.pathname === '/' ? (
+        <img src={portrait} alt='Robinson Souza' className='portrait' />
       ) : (
         <div className='name'>Rob Souza</div>
       )}
       <div className='navbar'>
         <ul>
           <li>
-            <a href='/'>Home</a>
+            <Link to='/'>Home</Link>
           </li>
           <li>
-            <a href='/learning'>Learning</a>
+            <Link to='/learning'>Learning</Link>
           </li>
           <li>
-            <a href='/projects'>Projects</a>
+            <Link to='/projects'>Projects</Link>
           </li>
           <li>
-            <a href='/contact'>Contact</a>
+            <Link to='/contact'>Contact</Link>
           </li>
         </ul>
       </div>
@@ -30,4 +30,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default withRouter(Navbar);

@@ -1,3 +1,5 @@
+/* General  */
+
 * {
   margin: 0;
   padding: 0;
@@ -36,7 +38,7 @@ p {
   max-width: 750px;
   margin: 0 0 80px 160px;
 
-  padding: 0 25px;
+  padding: 0 25px 25px;
 }
 
 .portrait {
@@ -51,7 +53,7 @@ p {
   display: none;
 }
 
-/* Navbar */
+/* Navbar ------------ */
 
 nav {
   display: block;
@@ -77,10 +79,9 @@ nav {
 .navbar li:hover {
   background: #e9e9e9;
   border-radius: 5px;
-  transition: all 0.3s;
 }
 
-/* Header */
+/* Header ------------ */
 
 .header {
   padding: 20px 0;
@@ -104,7 +105,7 @@ h2 {
   font-family: 'Quicksand', sans-serif;
 }
 
-/* Form */
+/* Form ------------ */
 
 .form-wrap {
   padding-right: 150px;
@@ -129,6 +130,7 @@ h2 {
   height: 200px;
 }
 
+/* Button ------------ */
 .btn-dark {
   display: block;
   padding: 0.8rem 2rem;
@@ -144,18 +146,19 @@ h2 {
   margin-left: auto;
 }
 
-/* Media */
+/* Media - Tablets ----------------- */
 
 @media (max-width: 768px) {
   .header {
     text-align: center;
+    padding-top: 0;
   }
 
   nav {
     display: flex;
     position: static;
     background: #fff;
-    padding: 5px 0;
+    padding: 10px 0;
     justify-content: space-evenly;
   }
 
@@ -168,7 +171,7 @@ h2 {
   .container {
     max-width: 750px;
     margin: 0 auto;
-    padding: 0 35px;
+    padding: 0 25px 25px;
   }
 
   .portrait {
@@ -197,7 +200,7 @@ h2 {
   }
 }
 
-/* Phones */
+/* Media - Phones ----------------- */
 
 @media (max-width: 600px) {
   nav {
@@ -205,7 +208,8 @@ h2 {
     flex-direction: column;
     position: static;
     background: #fff;
-    margin: 10px auto;
+    margin-top: 10px;
+    margin-left: 0;
     padding: 5px 0;
     align-items: center;
     text-align: center;
@@ -218,11 +222,7 @@ h2 {
   }
 
   .name {
-    padding-top: 5px;
-  }
-
-  .header {
-    padding-top: 0;
+    padding: 5px;
   }
 
   .form-wrap {
