@@ -6,20 +6,16 @@ const Home = () => {
     <div>
       <div className='header'>
         <h1>Robinson Souza</h1>
-        <h2>Lorem ipsum dolor sit.</h2>
+        <h2>Full Stack Web Developer</h2>
         <img className='portrait-media' src={portrait} alt='Robinson Souza' />
       </div>
-      <p>Lorem ipsum dolor sit amet consectetur.</p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero labore
-        ad ab ducimus culpa voluptatibus itaque nam deleniti nobis id. Natus
-        quidem qui sint quae? Rerum in perferendis provident saepe!
+        Hello. I am a self-taught web developer currently residing in South
+        Florida, USA. I am passionate about web development and spend a lot of
+        time improving my skills when possible.
       </p>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora nulla
-        nihil accusamus dolorum, cum harum eligendi soluta iure enim optio
-        sequi. Similique soluta expedita sequi quod commodi ex enim animi.
-      </p>
+
+      <p>Feel free to contact me with any inquiries.</p>
     </div>
   );
 };
