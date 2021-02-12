@@ -5,31 +5,31 @@ const Learning = () => {
   return (
     <>
       <div className='header'>
-        <h1>What I'm learning</h1>
-        <h2>Web Development</h2>
+        <h1>What I'm Learning</h1>
+        <h2>.NET 5 | ASP.NET Core | React </h2>
       </div>
+
       <p>
-        I love to code - Anything that involves the development of software
-        interests me. Although I focus on web development, I'm eager to expand
-        beyond the browser eventually.
+        Although I began my journey with Javascript, I now focus on learning and
+        mastering ASP.NET Core for general web development, especially REST
+        APIs.
       </p>
+
       <p>
-        My current goal is to develop strong expertise in the core technologies
-        used in the MERN Stack, as well as mastery over Javascript. It is my
-        objective to have a strong proficiency in the full development of small
-        and medium sized web applications.
+        My current goal is to continue to develop a strong expertise in the
+        creation of APIs by learning clean architecure and best practices from
+        experts in the field. It is my ambition to eventually have a strong
+        proficiency in the full environment of ASP.NET Core including MVC web
+        applications, Razor pages and Blazor apps.
       </p>
+
       <p>
-        In the future, I plan on learning mobile development starting with React
-        Native.
+        While I focus on web development, I'm eager to expand beyond the browser
+        - anything that involves the development of software interests me. I
+        plan on picking up Xamarin in the near future and Unity to develop games
+        as a side hobby.
       </p>
-      <h3>Learning: Next.Js </h3>
-      <p>
-        Although I'm focused on improving my current skills, I think it's
-        important to constantly be learning something new. Learning Next.Js will
-        extend my React skills beyond single page applications.
-      </p>
-      <p>I'll be updating this page as my skills develop.</p>
+
       <Skills />
     </>
   );

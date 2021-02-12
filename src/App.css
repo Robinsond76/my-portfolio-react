@@ -34,6 +34,10 @@ p {
   line-height: 1.5em;
 }
 
+.paragraph {
+  text-indent: 15px;
+}
+
 .container {
   max-width: 750px;
   margin: 0 0 80px 160px;
@@ -205,6 +209,44 @@ h5 {
   background: #eaf58b;
   padding: 2px 3px;
   border-radius: 5px;
+}
+
+/*JobTME ----------------- */
+
+.jobTME-credentials {
+  background-color: aliceblue;
+  margin: 10px 0;
+}
+
+.jobTME h3 {
+  color: #c7cf78;
+  margin-bottom: 15px;
+}
+
+.jobTME h4 {
+  margin-bottom: 15px;
+}
+
+.jobTME ul {
+  margin-left: 20px;
+  list-style: unset;
+}
+
+.jobTME-app-list li {
+  margin: 0;
+}
+
+.jobTME-functionality-list li,
+.jobTME-validation-list li {
+  margin: 15px 0;
+}
+
+.jobTME-img {
+  margin-bottom: 20px;
+}
+
+.jobTME-img.mobile {
+  margin-left: 15px;
 }
 
 /* Media - Tablets ----------------- */

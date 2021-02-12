@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
   return (
@@ -9,12 +10,45 @@ const Projects = () => {
       </div>
       <p>
         You can check my Github activity
-        <a className='link' href='https://www.github.com/robinsond7691'>
+        <a
+          className='link'
+          href='https://www.github.com/robinsond7691'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           here
         </a>
         .
       </p>
       <div className='projects'>
+        <span>
+          <a
+            className='project-link'
+            href='https://jobtme.AzureWebsites.net'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            JobTME
+          </a>
+        </span>
+        <p>
+          Job Time Management Engine. A web app built with ASP.Net Core and
+          React with lots of functionality including user login. Inspired by a
+          real company's problem. Read about it and take a guided tour here:
+          <br />
+          <a
+            className='code-link'
+            href='https://github.com/Robinsond7691/Payroll'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Github
+          </a>
+          |
+          <Link to='/jobTME' className='code-link'>
+            About
+          </Link>
+        </p>
         <span>
           <a className='project-link' href='/'>
             Robsouza.dev
@@ -26,6 +60,8 @@ const Projects = () => {
           <a
             className='code-link'
             href='https://github.com/Robinsond7691/my-portfolio-react'
+            target='_blank'
+            rel='noopener noreferrer'
           >
             React
           </a>
@@ -33,6 +69,8 @@ const Projects = () => {
           <a
             className='code-link'
             href='https://github.com/Robinsond7691/my-portfolio-express'
+            target='_blank'
+            rel='noopener noreferrer'
           >
             Express
           </a>
