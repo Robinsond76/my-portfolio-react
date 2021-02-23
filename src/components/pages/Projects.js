@@ -12,7 +12,7 @@ const Projects = () => {
         You can check my Github activity
         <a
           className='link'
-          href='https://www.github.com/robinsond7691'
+          href='https://www.github.com/robinsond76'
           target='_blank'
           rel='noopener noreferrer'
         >
@@ -38,7 +38,7 @@ const Projects = () => {
           <br />
           <a
             className='code-link'
-            href='https://github.com/Robinsond7691/Payroll'
+            href='https://github.com/Robinsond76/Payroll'
             target='_blank'
             rel='noopener noreferrer'
           >
@@ -59,7 +59,7 @@ const Projects = () => {
           rewritten using Express - see the code below:{' '}
           <a
             className='code-link'
-            href='https://github.com/Robinsond7691/my-portfolio-react'
+            href='https://github.com/Robinsond76/my-portfolio-react'
             target='_blank'
             rel='noopener noreferrer'
           >
@@ -68,7 +68,7 @@ const Projects = () => {
           |
           <a
             className='code-link'
-            href='https://github.com/Robinsond7691/my-portfolio-express'
+            href='https://github.com/Robinsond76/my-portfolio-express'
             target='_blank'
             rel='noopener noreferrer'
           >
