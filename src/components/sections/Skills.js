@@ -6,13 +6,13 @@ const Skills = () => {
       <h2>Skills</h2>
 
       <h5>
-        Asp.Net Core<span>:</span>
+        .NET<span>:</span>
       </h5>
       <div className='skill-level'>
         <div style={{ width: '70%' }}></div>
       </div>
       <h5>
-        Javascript<span>:</span>
+        Typescript<span>:</span>
       </h5>
       <div className='skill-level'>
         <div style={{ width: '75%' }}></div>

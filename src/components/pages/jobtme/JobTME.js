@@ -12,12 +12,6 @@ const JobTME = () => {
           <h2>Job Time Management Engine</h2>
         </div>
         <p>
-          This app was created in an attempt to showcase my abilities for a
-          potential job offer. Although its code can (always) be written better,
-          the genuine effort put forth in creating a quality application serves
-          to represent my dedication and commitment to coding.
-        </p>
-        <p>
           If you're short on time, skip to the
           <Link to='/jobTME/tour' className='link'>
             Guided Tour
