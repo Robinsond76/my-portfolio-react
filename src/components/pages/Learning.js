@@ -5,29 +5,19 @@ const Learning = () => {
   return (
     <>
       <div className='header'>
-        <h1>What I'm Learning</h1>
-        <h2>.NET 5 | Typescript | React </h2>
+        <h1>Tech Stack</h1>
+        <h2>.NET | Typescript | Angular | React</h2>
       </div>
-
-      <p>
-        Currently I focus on improving my proficiency with React, Typescript and
-        .NET APIs by learning clean architecure and best practices from experts
-        in the field.
-      </p>
-
-      <p>
-        Although I began my journey with Javascript, C# is my preferred
-        programming language. It is my ambition to eventually have a strong
-        proficiency in the full environment of .NET including MVC web
-        applications, Razor pages and Blazor apps.
-      </p>
-
-      <p>
-        While I focus on web development, I'm eager to expand beyond the browser
-        - anything that involves the development of software interests me. I
-        plan on picking up .NET MAUI in the near future and Unity to develop
-        games as a side hobby.
-      </p>
+        <p>
+            At my current job I work with React and .NET (razor pages and APIs) to both maintain
+            our core e-commerce website and to create tools used by teams internally.
+        </p>
+        
+        <p>
+            C# is my preferred programming language and it's my ambition to eventually have a strong
+            proficiency in the full environment of .NET. As for front-end frameworks, Although
+            I am more skilled with React, I prefer Angular and continue to improve my skill with it. 
+        </p>
 
       <Skills />
     </>

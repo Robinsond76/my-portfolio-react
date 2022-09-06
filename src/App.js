@@ -20,7 +20,7 @@ const App = () => {
         <div className='container'>
           <Switch>
             <Route exact path='/' component={Home} />
-            <Route exact path='/learning' component={Learning} />
+            <Route exact path='/stack' component={Learning} />
             <Route exact path='/projects' component={Projects} />
             <Route exact path='/contact' component={Contact} />
             <Route exact path='/jobTME' component={JobTME} />
